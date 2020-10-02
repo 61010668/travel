@@ -1,0 +1,13 @@
+{% extends 'frontend/base.html' %}
+{% load staticfiles %}
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-3">Wellcome to My Website</h1>
+    <hr class="my-2">
+    <p>
+        <img style="width: 1200px; height: 500px;" alt="Image description" src="{% static 'image/sea.jpg' %}"/>
+    </p>
+</div>
+{% endblock %}
